@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+
+.navdiv {
+    font-family: 'Do Hyeon', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffb6c1;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 4px solid black;
+}
+
+.navtitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: purple;
+}
+
+.navitem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.navitem:hover {
+    color: purple;
+}

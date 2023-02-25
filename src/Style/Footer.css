@@ -1,0 +1,22 @@
+.footer {
+    background-color: gray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px solid black;
+}
+
+.text {
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 5px;
+}
