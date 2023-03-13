@@ -1,0 +1,33 @@
+.register-form {
+    border: 1px solid darkgray;
+    padding: 15px;
+    display: grid;
+    width: 100%;
+    max-width: 360px;
+    margin: 0px auto;
+    margin-top: 7%;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.head {
+    font-size: 60px;
+}
+
+.register-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px
+}
