@@ -1,42 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import "../Style/Loginpage.css";
 
 const Loginpage = () => {
-  const [id, setId] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
-  useEffect(() => {
-    // useEffect is used when id value is changed
-    console.log(id); // codes for testing
-  }, [id]);
-
-  useEffect(() => {
-    // useEffect is used when password value is changed
-    console.log(password); // codes for testing
-  }, [password]);
 
   const onClickSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8800/api/auth/login", {
-        id: id,
+      .post("http://localhost:8000/api/auth/login", {
+        username: username,
         password: password,
       })
       .then((res) => {
-        console.log(res);
-        // if status code is 200,
         if (res.status === 200) {
-          alert("로그인 성공");
+          window.location.href = "/";
         } else {
-          alert("로그인 실패");
+          alert("로그인 에러");
         }
       })
       .catch((err) => {
-        console.log(err);
-        alert("로그인 실패");
+        alert(err.response.data.message);
       });
   };
 
@@ -53,8 +40,7 @@ const Loginpage = () => {
             className="inp"
             id="user"
             onChange={(e) => {
-              setId(e.target.value);
-              console.log(id);
+              setUsername(e.target.value);
             }}
           />
           <input
