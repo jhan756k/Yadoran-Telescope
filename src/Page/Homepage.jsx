@@ -6,11 +6,12 @@ import '../Style/Homepage.css'
 
 const Homepage = () => {
     return (
-        <div>
+        <div className='ent'>
             <Navbar />
             <div className="carditems">
-                <Card idea='전력 생산 현황' img='images/lightpanel.png' link='/eprod'/>
-                <Card idea='센서 감지 현황' img='images/cctv.png' link='/sensor'/>
+                {/* 사진크기 248 376 */}
+                <Card idea='민사고의 소화기 위치' img='images/map.jpg' link='/eprod'/>
+                <Card idea='화재 감지 현황' img='images/cctv.png' link='/sensor'/>
                 <Card idea='프로젝트 개요' img='images/doc.png' link='/about'/>
             </div>
             <Footer />
