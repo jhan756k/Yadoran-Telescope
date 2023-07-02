@@ -2,14 +2,14 @@
     border: 1px solid darkgray;
     padding: 15px;
     display: grid;
-    width: 100%;
     max-width: 360px;
     margin: 0px auto;
-    margin-top: 7%;
     align-items: center;
     justify-items: center;
     border-radius: 10px;
     font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .head {

@@ -1,12 +1,8 @@
 .carditems {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-items: center;
-    margin: 40px 40px 40px 40px;
-}
-
-.ent {
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  margin: 40px 40px 40px 40px;
 }

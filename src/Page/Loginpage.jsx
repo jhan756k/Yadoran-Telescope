@@ -32,7 +32,6 @@ const Loginpage = () => {
       <Navbar />
       <div className="login-form">
         <h1 className="head">로그인</h1>
-
         <form onSubmit={onClickSubmit} id="loginform">
           <input
             type="text"
