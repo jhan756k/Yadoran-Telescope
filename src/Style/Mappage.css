@@ -1,0 +1,39 @@
+.mapcont {
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 95%;
+    border: 4px solid orange;
+    display: flex;
+}
+
+.mapfull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kmlamap {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.maplinks {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.numclick {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.numclick:hover {
+    color: orange;
+    cursor: pointer;
+}
