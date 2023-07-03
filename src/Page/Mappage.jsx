@@ -10,26 +10,18 @@ const Mappage = () => {
       <div className="mapfull">
         <div className="mapcont">
           <img src="images/kmla.png" alt="" className="kmlamap" />
+            <button className="map1">🚩</button>
+            <button className="map2">🚩</button>
+            <button className="map3">🚩</button>
+            <button className="map4">🚩</button>
+            <button className="map5">🚩</button>
+            <button className="map6">🚩</button>
+            <button className="map7">🚩</button>
         </div>
       </div>
-      <div className="maplinks">
-        <a className="numclick">①</a>
-        <a className="numclick">②</a>
-        <a className="numclick">③</a>
-        <a className="numclick">④</a>
-        <a className="numclick">⑤</a>
-        <a className="numclick">⑥</a>
-        <a className="numclick">⑦</a>
-        <a className="numclick">⑧</a>
-        <a className="numclick">⑨</a>
-        <a className="numclick">⑩</a>
-        <a className="numclick">⑪</a>
-        <a className="numclick">⑫</a>
-      </div>
 
-      <div className="mapinfo">
-        
-      </div>
+      <div className="maplinks"></div>
+      <div className="mapinfo"></div>
 
       <Footer />
     </div>
