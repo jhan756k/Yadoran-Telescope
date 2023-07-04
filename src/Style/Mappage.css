@@ -21,156 +21,271 @@
   overflow: hidden;
 }
 
+.mapexp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.maptit {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
 .map1 {
-    position: absolute;
-    top:19%;
-    left: 4%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 19%;
+  left: 4%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map1:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
 
 .map2 {
-    position: absolute;
-    top:28%;
-    left: 22%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 28%;
+  left: 22%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map2:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
 
 .map3 {
-    position: absolute;
-    top:56%;
-    left: 22%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 56%;
+  left: 22%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map3:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
 
 .map4 {
-    position: absolute;
-    top:65%;
-    left: 7%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 65%;
+  left: 7%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map4:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
 
 .map5 {
-    position: absolute;
-    top: 12%;
-    left: 34%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 12%;
+  left: 34%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map5:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
 
 .map6 {
-    position: absolute;
-    top:39%;
-    left: 55%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 39%;
+  left: 55%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map6:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
 
 .map7 {
-    position: absolute;
-    top:56%;
-    left: 45%;
-    width: 14vw;
-    height: 14vw;
-    background-color: transparent;
-    font-size: 6vw;
-    font-weight: bold;
-    color: black;
-    transition: 0.3s;
-    border-radius: 50%;
-    border: none;
+  position: absolute;
+  top: 56%;
+  left: 45%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
 }
 
 .map7:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 7vw;
-    cursor: pointer;
-    color: black;
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
+}
+
+.map8 {
+  position: absolute;
+  top: 0%;
+  left: 56%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
+}
+
+.map8:hover {
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
+}
+
+.map9 {
+  position: absolute;
+  top: 17%;
+  left: 60%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
+}
+
+.map9:hover {
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
+}
+
+.map10 {
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
+}
+
+.map10:hover {
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
+}
+
+.map11 {
+  position: absolute;
+  top: 33%;
+  left: 70%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
+}
+
+.map11:hover {
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
+}
+
+.map12 {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  width: 14vw;
+  height: 14vw;
+  background-color: transparent;
+  font-size: 6vw;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  border-radius: 50%;
+  border: none;
+}
+
+.map12:hover {
+  font-size: 7vw;
+  cursor: pointer;
+  color: black;
 }
