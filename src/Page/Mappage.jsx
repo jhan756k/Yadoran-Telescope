@@ -12,6 +12,7 @@ const Mappage = () => {
     document.getElementsByClassName("maptit")[0].innerHTML = placeName;
     document.getElementsByClassName("map" + num)[0].style.backgroundColor =
       "rgba(255, 255, 255, 0.5)";
+    document.getElementsByClassName("maptit")[0].scrollIntoView({behavior: "smooth"});
   };
 
   return (
